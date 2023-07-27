@@ -1,0 +1,30 @@
+/* CSSファイルまたは<style>タグ内に以下のコードを記述します */
+.custom-background {
+    background-image: url(img/grad.png);
+    background-size: cover;
+    /* 任意の背景色を指定します */
+}
+
+.head {
+    width: max-content;
+    height: 20%;
+    background-color: aliceblue;
+    /* 適切な値に調整してください */
+}
+
+h1 {
+    @import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+    font-family: 'Tektur', cursive;
+}
+
+.zoomin img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.zoomin:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}

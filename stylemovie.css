@@ -1,0 +1,16 @@
+.custom-background {
+    background-image: url(img/grad.png);
+    background-size: cover;
+    background-repeat:repeat-y ;
+    /* 任意の背景色を指定します */
+}
+
+.center{
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}

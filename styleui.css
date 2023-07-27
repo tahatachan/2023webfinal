@@ -1,0 +1,10 @@
+/* CSSファイルまたは<style>タグ内に以下のコードを記述します */
+.custom-background {
+    background-image: url(img/grad.png);
+    background-size: cover;
+    /* 任意の背景色を指定します */
+}
+
+.text{
+    text-align: center;
+}
